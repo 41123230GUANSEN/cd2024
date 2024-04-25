@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>41123230-W9期中考周</title>
+  <title>41123230-W9期中考週</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -42,27 +42,27 @@
 
     <link href="./41123230-W9-blog.html" rel="canonical" />
 
-        <meta name="description" content="完成期中自評">
+        <meta name="description" content="期中考週">
 
         <meta name="author" content="41123230">
 
-        <meta name="tags" content="其中自評">
+        <meta name="tags" content="期中考週">
 
 
 
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="網際內容管理系統"/>
-<meta property="og:title" content="41123230-W9期中考周"/>
-<meta property="og:description" content="完成期中自評"/>
+<meta property="og:title" content="41123230-W9期中考週"/>
+<meta property="og:description" content="期中考週"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="./41123230-W9-blog.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-04-18 02:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-04-25 06:19:09.141664+08:00"/>
+<meta property="article:modified_time" content="2024-04-25 07:02:14.222240+08:00"/>
 <meta property="article:author" content="./author/41123230.html">
 <meta property="article:section" content="w9"/>
-<meta property="article:tag" content="其中自評"/>
+<meta property="article:tag" content="期中考週"/>
 <meta property="og:image" content="./theme/images/post-bg.jpg">
 
 <!-- Twitter Card -->
@@ -71,10 +71,10 @@
 {
   "@context": "http://schema.org",
   "@type": "Article",
-  "name": "41123230-W9期中考周",
-  "headline": "41123230-W9期中考周",
+  "name": "41123230-W9期中考週",
+  "headline": "41123230-W9期中考週",
   "datePublished": "2024-04-18 02:00:00+08:00",
-  "dateModified": "2024-04-25 06:19:09.141664+08:00",
+  "dateModified": "2024-04-25 07:02:14.222240+08:00",
   "author": {
     "@type": "Person",
     "name": "41123230",
@@ -82,7 +82,7 @@
   },
   "image": "./theme/images/post-bg.jpg",
   "url": "./41123230-W9-blog.html",
-  "description": "完成期中自評"
+  "description": "期中考週"
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -204,7 +204,7 @@ init_mathjax();
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">41123230-W9期中考周</h1>
+        <h1 class="post-title">41123230-W9期中考週</h1>
         <!-- TODO : Proper class for headline -->
         <span class="post-meta">
                 <a href="./author/41123230.html">41123230</a>
@@ -231,15 +231,89 @@ init_mathjax();
         <article class="post">
         <div class="inner">
             <section class="post-content">
-                <p>完成期中自評</p>
+                <p>期中考週</p>
 
-<h1>完成期中自評</h1>
-<p>完成期中自評</p>
+<h1>期中考週</h1>
+<p>對 Gemini 1.5 Pro 提問:</p>
+<p>以下為利用 PID 控制 CoppeliaSim 鋼球平衡台場景的 ZMQ RemoteAPI Python 程式, 請利用 Python 模組將系統控制過程, 鋼球在平衡台上的 x 方向座標與 y 方向, 利用 matplotlib 畫出來. "這裡附上原本的 PID 控制程式碼"
+回答:</p>
+<div class="highlight"><pre><span></span><code><span class="c1">#導入必要的模組</span>
+<span class="kn">import</span> <span class="nn">zmq</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="c1">#建立 ZMQ context 和 socket</span>
+<span class="n">context</span> <span class="o">=</span> <span class="n">zmq</span><span class="o">.</span><span class="n">Context</span><span class="p">()</span>
+<span class="n">socket</span> <span class="o">=</span> <span class="n">context</span><span class="o">.</span><span class="n">socket</span><span class="p">(</span><span class="n">zmq</span><span class="o">.</span><span class="n">REQ</span><span class="p">)</span>
+<span class="n">socket</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s2">&quot;tcp://localhost:23000&quot;</span><span class="p">)</span>
+
+<span class="c1">#PID 控制參數（請替換為您的實際參數）</span>
+<span class="n">Kp</span> <span class="o">=</span> <span class="mf">1.0</span>
+<span class="n">Ki</span> <span class="o">=</span> <span class="mf">0.1</span>
+<span class="n">Kd</span> <span class="o">=</span> <span class="mf">0.01</span>
+
+<span class="c1">#初始化變數</span>
+<span class="n">x_positions</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">y_positions</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">prev_error</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">integral_error</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="c1">#控制循環</span>
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+<span class="c1"># 獲取鋼球的 x 和 y 方向座標（請替換為您的實際程式碼）</span>
+<span class="n">socket</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="sa">b</span><span class="s2">&quot;get_ball_position&quot;</span><span class="p">)</span>
+<span class="n">message</span> <span class="o">=</span> <span class="n">socket</span><span class="o">.</span><span class="n">recv_json</span><span class="p">()</span>
+<span class="n">x_position</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="s2">&quot;x&quot;</span><span class="p">]</span>
+<span class="n">y_position</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="s2">&quot;y&quot;</span><span class="p">]</span>
+
+<span class="c1"># 將座標添加到列表中</span>
+<span class="n">x_positions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x_position</span><span class="p">)</span>
+<span class="n">y_positions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">y_position</span><span class="p">)</span>
+
+<span class="c1"># 計算 PID 控制輸出（請替換為您的實際程式碼）</span>
+<span class="n">error</span> <span class="o">=</span> <span class="c1"># ... 計算誤差 ...</span>
+<span class="n">integral_error</span> <span class="o">+=</span> <span class="n">error</span>
+<span class="n">derivative_error</span> <span class="o">=</span> <span class="n">error</span> <span class="o">-</span> <span class="n">prev_error</span>
+<span class="n">output</span> <span class="o">=</span> <span class="n">Kp</span> <span class="o">*</span> <span class="n">error</span> <span class="o">+</span> <span class="n">Ki</span> <span class="o">*</span> <span class="n">integral_error</span> <span class="o">+</span> <span class="n">Kd</span> <span class="o">*</span>     <span class="n">derivative_error</span>
+<span class="n">prev_error</span> <span class="o">=</span> <span class="n">error</span>
+
+<span class="c1"># 發送控制指令到 CoppeliaSim（請替換為您的實際程式碼）</span>
+<span class="c1"># ...</span>
+
+<span class="c1"># 繪製圖形</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">clf</span><span class="p">()</span>  <span class="c1"># 清除之前的圖形</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_positions</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;X Position&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">y_positions</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;Y Position&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Time&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Position&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">pause</span><span class="p">(</span><span class="mf">0.01</span><span class="p">)</span>  <span class="c1"># 暫停以便圖形更新</span>
+
+<span class="c1"># 延遲</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.01</span><span class="p">)</span>
+
+<span class="c1">#關閉 socket 和 context</span>
+<span class="n">socket</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="n">context</span><span class="o">.</span><span class="n">term</span><span class="p">()</span>
+</code></pre></div>
+
+<p>程式碼說明:
+程式碼首先導入必要的模組，包括 zmq 用于與 CoppeliaSim 通信，time 用于延遲，以及 matplotlib.pyplot 用于繪圖。建立 ZMQ context 和 socket，並連接到 CoppeliaSim 的 RemoteAPI 端口。
+初始化 PID 控制參數、變數和用於存儲鋼球座標的列表。
+控制循環中，首先獲取鋼球的 x 和 y 方向座標。
+計算 PID 控制輸出並發送控制指令到 CoppeliaSim。
+將座標添加到列表中，並使用 matplotlib 繪製 x 和 y 方向座標隨時間變化的圖形。
+程式最後關閉 socket 和 context。
+請注意:
+您需要將示例程式碼中的 PID 控制部分替換為您的實際程式碼。
+您需要根據您的場景調整 get_ball_position 函數以獲取鋼球的座標。
+您可以根據需要調整 matplotlib 繪圖參數以獲得更清晰的視覺化效果。
+希望這個示例程式碼能幫助您使用 matplotlib 視覺化 CoppeliaSim 鋼球平衡台 PID 控制過程。</p>
             </section>
 
             <section class="post-info">
                 <aside class="post-tags">
-<a href="./tag/qi-zhong-zi-ping.html">其中自評</a>                </aside>
+<a href="./tag/qi-zhong-kao-zhou.html">期中考週</a>                </aside>
 
                 <div class="clear"></div>
 
