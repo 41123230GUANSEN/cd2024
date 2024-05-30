@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-16T08:41:14+08:00</updated><entry><title>41123230-W13</title><link href="./41123230-W13-blog.html" rel="alternate"></link><published>2024-05-16T02:00:00+08:00</published><updated>2024-05-16T07:51:25+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-05-16:./41123230-W13-blog.html</id><summary type="html">&lt;p&gt;更新前幾週網誌&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-30T05:05:15+08:00</updated><entry><title>41123230-W14</title><link href="./41123230-W14-blog.html" rel="alternate"></link><published>2024-05-23T02:00:00+08:00</published><updated>2024-05-30T05:05:15+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-05-23:./41123230-W14-blog.html</id><summary type="html">&lt;p&gt;組合平衡台&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;組合平衡台&lt;/p&gt;
+
+&lt;h1&gt;組合平衡台&lt;/h1&gt;</content><category term="w14"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W13</title><link href="./41123230-W13-blog.html" rel="alternate"></link><published>2024-05-16T02:00:00+08:00</published><updated>2024-05-30T05:03:09+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-05-16:./41123230-W13-blog.html</id><summary type="html">&lt;p&gt;更新前幾週網誌&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;更新前幾週網誌&lt;/p&gt;
 
-&lt;h1&gt;更新前幾週網誌&lt;/h1&gt;</content><category term="w13更新前幾週網誌"></category><category term="更新前幾週網誌"></category></entry><entry><title>41123230-W12</title><link href="./41123230-W12-blog.html" rel="alternate"></link><published>2024-05-09T02:00:00+08:00</published><updated>2024-05-16T08:41:14+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-05-09:./41123230-W12-blog.html</id><summary type="html">&lt;p&gt;各學員利用 NX 1872 繪製鋼球平衡台所需的零組件&lt;/p&gt;
+&lt;h1&gt;更新前幾週網誌&lt;/h1&gt;</content><category term="w13"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W12</title><link href="./41123230-W12-blog.html" rel="alternate"></link><published>2024-05-09T02:00:00+08:00</published><updated>2024-05-30T05:03:14+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-05-09:./41123230-W12-blog.html</id><summary type="html">&lt;p&gt;各學員利用 NX 1872 繪製鋼球平衡台所需的零組件&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;各學員利用 NX 1872 繪製鋼球平衡台所需的零組件&lt;/p&gt;
 
 &lt;h1&gt;各學員利用 NX 1872 繪製鋼球平衡台所需的零組件&lt;/h1&gt;
 &lt;p&gt;將各分組倉儲設為評分倉儲的子模組
 實習任務一: 零件檔:&amp;lt;a href=&lt;a href="https://drive.google.com/file/d/1B-oxuN3ZbtZQuQIB-LhFntdwH9lj7LCd/view?usp=drive_link"&gt;"https://www.google.com.tw/"&amp;gt;TO GOOGLE&lt;/a&gt;&lt;/a&gt;
 NXOpen python程式檔:&amp;lt;a href=&lt;a href="https://drive.google.com/file/d/1Bafri3yKelcIdfirev-hHsnnBrQssR18/view?usp=drive_link"&gt;"https://www.google.com.tw/"&amp;gt;TO GOOGLE&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;心得:這次使用NX作圖其實還不錯因為之前有使用過，也讓我知道NX其他的使用方法&lt;/p&gt;</content><category term="w12利用 各學員利用 NX 1872 繪製鋼球平衡台所需的零組件"></category><category term="各學員利用 NX 1872 繪製鋼球平衡台所需的零組件"></category></entry><entry><title>41123230-W11</title><link href="./41123230-W11-blog.html" rel="alternate"></link><published>2024-05-02T02:00:00+08:00</published><updated>2024-05-16T05:58:31+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-05-02:./41123230-W11-blog.html</id><summary type="html">&lt;p&gt;利用 NXOpen Python 建立鋼球平衡台中的平台零件&lt;/p&gt;
+&lt;p&gt;心得:這次使用NX作圖其實還不錯因為之前有使用過，也讓我知道NX其他的使用方法&lt;/p&gt;</content><category term="w12"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W11</title><link href="./41123230-W11-blog.html" rel="alternate"></link><published>2024-05-02T02:00:00+08:00</published><updated>2024-05-30T05:03:18+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-05-02:./41123230-W11-blog.html</id><summary type="html">&lt;p&gt;利用 NXOpen Python 建立鋼球平衡台中的平台零件&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;利用 NXOpen Python 建立鋼球平衡台中的平台零件&lt;/p&gt;
 
 &lt;h1&gt;利用 NXOpen Python 建立鋼球平衡台中的平台零件&lt;/h1&gt;
@@ -32,7 +35,7 @@ NXOpen python程式檔:&amp;lt;a href=&lt;a href="https://drive.google.com/file/
 認識場景存檔的三種格式（binary與XML間的轉換及應用)及應用時機
 瞭解如何運用 Web-based 場景模擬串流
 學習如何建立場景控制程式（internal Lua、Python、Remoteapi Python、IPv4 Websocket&amp;amp;ZMQ vs IPv6 Websocket&amp;amp;ZMQ)
-了解如何協同整理資料、編寫網誌、建立網際簡報及結案報告&lt;/p&gt;</content><category term="w11利用 NXOpen Python 建立鋼球平衡台中的平台零件"></category><category term="期中考週"></category></entry><entry><title>41123230-W10</title><link href="./41123230-W10-blog.html" rel="alternate"></link><published>2024-04-25T02:00:00+08:00</published><updated>2024-05-16T05:40:46+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-04-25:./41123230-W10-blog.html</id><summary type="html">&lt;p&gt;鋼球平衡台 PID 控制與模擬&lt;/p&gt;
+了解如何協同整理資料、編寫網誌、建立網際簡報及結案報告&lt;/p&gt;</content><category term="w11"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W10</title><link href="./41123230-W10-blog.html" rel="alternate"></link><published>2024-04-25T02:00:00+08:00</published><updated>2024-05-30T05:03:27+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-04-25:./41123230-W10-blog.html</id><summary type="html">&lt;p&gt;鋼球平衡台 PID 控制與模擬&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;鋼球平衡台 PID 控制與模擬&lt;/p&gt;
 
 &lt;h1&gt;鋼球平衡台 PID 控制與模擬&lt;/h1&gt;
@@ -44,7 +47,7 @@ NXOpen python程式檔:&amp;lt;a href=&lt;a href="https://drive.google.com/file/
 &lt;p&gt;2b 分組倉儲連結 template: https://github.com/mdecd2024/2b-midbg組別&lt;/p&gt;
 &lt;p&gt;2a 分組倉儲連結 template: https://github.com/mdecd2024/2a-midag組別
 這是 W10 實習的任務二:
-請下載 cd2024_ball_balancing_platform_control_ref.7z, 閱讀後請將摘要內容放入個人與分組網誌中.&lt;/p&gt;</content><category term="w10"></category><category term="建立各班學員的倉儲、網站與分組連結  鋼球平衡台 PID 控制與模擬"></category></entry><entry><title>41123230-W9期中考週</title><link href="./41123230-W9-blog.html" rel="alternate"></link><published>2024-04-18T02:00:00+08:00</published><updated>2024-04-25T07:02:14+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-04-18:./41123230-W9-blog.html</id><summary type="html">&lt;p&gt;期中考週&lt;/p&gt;
+請下載 cd2024_ball_balancing_platform_control_ref.7z, 閱讀後請將摘要內容放入個人與分組網誌中.&lt;/p&gt;</content><category term="w10"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W9期中考週</title><link href="./41123230-W9-blog.html" rel="alternate"></link><published>2024-04-18T02:00:00+08:00</published><updated>2024-05-30T05:03:33+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-04-18:./41123230-W9-blog.html</id><summary type="html">&lt;p&gt;期中考週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;期中考週&lt;/p&gt;
 
 &lt;h1&gt;期中考週&lt;/h1&gt;
@@ -52,56 +55,56 @@ NXOpen python程式檔:&amp;lt;a href=&lt;a href="https://drive.google.com/file/
 &lt;p&gt;以下為利用 PID 控制 CoppeliaSim 鋼球平衡台場景的 ZMQ RemoteAPI Python 程式, 請利用 Python 模組將系統控制過程, 鋼球在平衡台上的 x 方向座標與 y 方向, 利用 matplotlib 畫出來. "這裡附上原本的 PID 控制程式碼"
 回答:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;#導入必要的模組&lt;/span&gt;
-&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;zmq&lt;/span&gt;
-&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;time&lt;/span&gt;
-&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;plt&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;zmq&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;time&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;matplotlib.pyplot&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;as&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;plt&lt;/span&gt;
 
 &lt;span class="c1"&gt;#建立 ZMQ context 和 socket&lt;/span&gt;
-&lt;span class="n"&gt;context&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;zmq&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Context&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;span class="n"&gt;socket&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;socket&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;zmq&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;REQ&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;zmq&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Context&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;socket&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;socket&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;zmq&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;REQ&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;socket&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;tcp://localhost:23000&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
 &lt;span class="c1"&gt;#PID 控制參數（請替換為您的實際參數）&lt;/span&gt;
-&lt;span class="n"&gt;Kp&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;1.0&lt;/span&gt;
-&lt;span class="n"&gt;Ki&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;0.1&lt;/span&gt;
-&lt;span class="n"&gt;Kd&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;0.01&lt;/span&gt;
+&lt;span class="n"&gt;Kp&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1.0&lt;/span&gt;
+&lt;span class="n"&gt;Ki&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0.1&lt;/span&gt;
+&lt;span class="n"&gt;Kd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0.01&lt;/span&gt;
 
 &lt;span class="c1"&gt;#初始化變數&lt;/span&gt;
-&lt;span class="n"&gt;x_positions&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
-&lt;span class="n"&gt;y_positions&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
-&lt;span class="n"&gt;prev_error&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
-&lt;span class="n"&gt;integral_error&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;span class="n"&gt;x_positions&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[]&lt;/span&gt;
+&lt;span class="n"&gt;y_positions&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[]&lt;/span&gt;
+&lt;span class="n"&gt;prev_error&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;span class="n"&gt;integral_error&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;
 
 &lt;span class="c1"&gt;#控制循環&lt;/span&gt;
-&lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="k"&gt;while&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
 &lt;span class="c1"&gt;# 獲取鋼球的 x 和 y 方向座標（請替換為您的實際程式碼）&lt;/span&gt;
 &lt;span class="n"&gt;socket&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;send&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;b&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;get_ball_position&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;message&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;socket&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;recv_json&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;span class="n"&gt;x_position&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;x&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="n"&gt;y_position&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;y&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;socket&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;recv_json&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;x_position&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;x&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;y_position&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;y&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 
 &lt;span class="c1"&gt;# 將座標添加到列表中&lt;/span&gt;
 &lt;span class="n"&gt;x_positions&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x_position&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;y_positions&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y_position&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
 &lt;span class="c1"&gt;# 計算 PID 控制輸出（請替換為您的實際程式碼）&lt;/span&gt;
-&lt;span class="n"&gt;error&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="c1"&gt;# ... 計算誤差 ...&lt;/span&gt;
-&lt;span class="n"&gt;integral_error&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="n"&gt;error&lt;/span&gt;
-&lt;span class="n"&gt;derivative_error&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;error&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;prev_error&lt;/span&gt;
-&lt;span class="n"&gt;output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Kp&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;error&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;Ki&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;integral_error&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;Kd&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;     &lt;span class="n"&gt;derivative_error&lt;/span&gt;
-&lt;span class="n"&gt;prev_error&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;error&lt;/span&gt;
+&lt;span class="n"&gt;error&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;# ... 計算誤差 ...&lt;/span&gt;
+&lt;span class="n"&gt;integral_error&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;error&lt;/span&gt;
+&lt;span class="n"&gt;derivative_error&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;error&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;prev_error&lt;/span&gt;
+&lt;span class="n"&gt;output&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Kp&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;error&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Ki&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;integral_error&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Kd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="w"&gt;     &lt;/span&gt;&lt;span class="n"&gt;derivative_error&lt;/span&gt;
+&lt;span class="n"&gt;prev_error&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;error&lt;/span&gt;
 
 &lt;span class="c1"&gt;# 發送控制指令到 CoppeliaSim（請替換為您的實際程式碼）&lt;/span&gt;
 &lt;span class="c1"&gt;# ...&lt;/span&gt;
 
 &lt;span class="c1"&gt;# 繪製圖形&lt;/span&gt;
-&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;clf&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;  &lt;span class="c1"&gt;# 清除之前的圖形&lt;/span&gt;
-&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x_positions&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;label&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;X Position&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y_positions&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;label&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Y Position&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;clf&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;# 清除之前的圖形&lt;/span&gt;
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x_positions&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;label&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;X Position&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y_positions&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;label&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Y Position&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;xlabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Time&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ylabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Position&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;legend&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pause&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mf"&gt;0.01&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;# 暫停以便圖形更新&lt;/span&gt;
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pause&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mf"&gt;0.01&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="c1"&gt;# 暫停以便圖形更新&lt;/span&gt;
 
 &lt;span class="c1"&gt;# 延遲&lt;/span&gt;
 &lt;span class="n"&gt;time&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sleep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mf"&gt;0.01&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
@@ -122,15 +125,15 @@ NXOpen python程式檔:&amp;lt;a href=&lt;a href="https://drive.google.com/file/
 您需要將示例程式碼中的 PID 控制部分替換為您的實際程式碼。
 您需要根據您的場景調整 get_ball_position 函數以獲取鋼球的座標。
 您可以根據需要調整 matplotlib 繪圖參數以獲得更清晰的視覺化效果。
-希望這個示例程式碼能幫助您使用 matplotlib 視覺化 CoppeliaSim 鋼球平衡台 PID 控制過程。&lt;/p&gt;</content><category term="w9"></category><category term="期中考週"></category></entry><entry><title>41123230-W8拍攝個人影片</title><link href="./41123230-W8-blog.html" rel="alternate"></link><published>2024-04-11T02:00:00+08:00</published><updated>2024-04-25T06:18:17+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-04-11:./41123230-W8-blog.html</id><summary type="html">&lt;p&gt;介紹個人倉儲內容、靜態、網誌及團隊倉儲&lt;/p&gt;
+希望這個示例程式碼能幫助您使用 matplotlib 視覺化 CoppeliaSim 鋼球平衡台 PID 控制過程。&lt;/p&gt;</content><category term="w9"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W8拍攝個人影片</title><link href="./41123230-W8-blog.html" rel="alternate"></link><published>2024-04-11T02:00:00+08:00</published><updated>2024-05-30T05:03:40+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-04-11:./41123230-W8-blog.html</id><summary type="html">&lt;p&gt;介紹個人倉儲內容、靜態、網誌及團隊倉儲&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;介紹個人倉儲內容、靜態、網誌及團隊倉儲&lt;/p&gt;
 
 &lt;h1&gt;完成影片&lt;/h1&gt;
-&lt;p&gt;上傳影片&lt;/p&gt;</content><category term="w8"></category><category term="拍攝個人影片"></category></entry><entry><title>41123230-W7清明連假暫停一次</title><link href="./41123230-W7-blog.html" rel="alternate"></link><published>2024-04-07T02:00:00+08:00</published><updated>2024-04-25T06:18:11+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-04-07:./41123230-W7-blog.html</id><summary type="html">&lt;p&gt;清明連假暫停一次&lt;/p&gt;
+&lt;p&gt;上傳影片&lt;/p&gt;</content><category term="w8"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W7清明連假暫停一次</title><link href="./41123230-W7-blog.html" rel="alternate"></link><published>2024-04-07T02:00:00+08:00</published><updated>2024-05-30T05:03:46+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-04-07:./41123230-W7-blog.html</id><summary type="html">&lt;p&gt;清明連假暫停一次&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;清明連假暫停一次&lt;/p&gt;
 
 &lt;h1&gt;清明連假暫停一次&lt;/h1&gt;
-&lt;p&gt;清明連假暫停一次&lt;/p&gt;</content><category term="w7"></category><category term="清明連假暫停一次"></category></entry><entry><title>41123230-W6分組任務</title><link href="./41123230-W6-blog.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-25T06:18:05+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-03-28:./41123230-W6-blog.html</id><summary type="html">&lt;p&gt;完成分配到的影片上字幕&lt;/p&gt;
+&lt;p&gt;清明連假暫停一次&lt;/p&gt;</content><category term="w7"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W6分組任務</title><link href="./41123230-W6-blog.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-05-30T04:53:25+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-03-28:./41123230-W6-blog.html</id><summary type="html">&lt;p&gt;完成分配到的影片上字幕&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;完成分配到的影片上字幕&lt;/p&gt;
 
 &lt;h1&gt;完成並上傳上字幕任務&lt;/h1&gt;
@@ -394,21 +397,21 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;div id="brython_div2"&gt;&lt;/div&gt;
 &lt;!-- editor2 結束 --&gt;
 &lt;hr/&gt;&lt;p&gt;
-&lt;script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"&gt;&lt;/script&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W5老師新增影片上字幕作業</title><link href="./41123230-W5-blog.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-04-25T06:18:00+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-03-21:./41123230-W5-blog.html</id><summary type="html">&lt;p&gt;老師新增影片上字幕作業&lt;/p&gt;
+&lt;script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"&gt;&lt;/script&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W5老師新增影片上字幕作業</title><link href="./41123230-W5-blog.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-05-30T04:53:25+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-03-21:./41123230-W5-blog.html</id><summary type="html">&lt;p&gt;老師新增影片上字幕作業&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;老師新增影片上字幕作業&lt;/p&gt;
 
-&lt;h1&gt;新增翻譯作業1-11頁&lt;/h1&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W4Odoo翻譯作業</title><link href="./41123230-W4-blog.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-04-25T06:17:46+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-03-14:./41123230-W4-blog.html</id><summary type="html">&lt;p&gt;Odoo翻譯作業&lt;/p&gt;
+&lt;h1&gt;新增翻譯作業1-11頁&lt;/h1&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W4Odoo翻譯作業</title><link href="./41123230-W4-blog.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-05-30T04:53:25+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-03-14:./41123230-W4-blog.html</id><summary type="html">&lt;p&gt;Odoo翻譯作業&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Odoo翻譯作業&lt;/p&gt;
 
 &lt;h1&gt;老師增加翻譯作業&lt;/h1&gt;
-&lt;p&gt;組長分配翻譯工作1-11頁&lt;/p&gt;</content><category term="w4"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W3建立2b-midag7 的子模組, 且以各組員的學號作為子模組的名稱</title><link href="./41123230-W3-blog.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-04-25T06:17:40+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-03-07:./41123230-W3-blog.html</id><summary type="html">&lt;p&gt;建立2b-midag7 的子模組, 且以各組員的學號作為子模組的名稱&lt;/p&gt;
+&lt;p&gt;組長分配翻譯工作1-11頁&lt;/p&gt;</content><category term="w4"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W3建立2b-midag7 的子模組, 且以各組員的學號作為子模組的名稱</title><link href="./41123230-W3-blog.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-05-30T04:53:25+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-03-07:./41123230-W3-blog.html</id><summary type="html">&lt;p&gt;建立2b-midag7 的子模組, 且以各組員的學號作為子模組的名稱&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;建立2b-midag7 的子模組, 且以各組員的學號作為子模組的名稱&lt;/p&gt;
 
-&lt;h1&gt;建立2b-midag7 的子模組, 且以各組員的學號作為子模組的名稱&lt;/h1&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W2組長建立各組倉儲</title><link href="./41123230-W2-blog.html" rel="alternate"></link><published>2024-02-29T02:00:00+08:00</published><updated>2024-04-25T06:17:27+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-02-29:./41123230-W2-blog.html</id><summary type="html">&lt;p&gt;組長建立各組倉儲&lt;/p&gt;
+&lt;h1&gt;建立2b-midag7 的子模組, 且以各組員的學號作為子模組的名稱&lt;/h1&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W2組長建立各組倉儲</title><link href="./41123230-W2-blog.html" rel="alternate"></link><published>2024-02-29T02:00:00+08:00</published><updated>2024-05-30T04:53:25+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-02-29:./41123230-W2-blog.html</id><summary type="html">&lt;p&gt;組長建立各組倉儲&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;組長建立各組倉儲&lt;/p&gt;
 
 &lt;h1&gt;組長建立各組倉儲&lt;/h1&gt;
-&lt;p&gt;加入2b-midag7&lt;/p&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W1建立個人倉儲</title><link href="./41123230-W1-blog.html" rel="alternate"></link><published>2024-02-22T02:00:00+08:00</published><updated>2024-04-25T06:17:02+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-02-22:./41123230-W1-blog.html</id><summary type="html">&lt;p&gt;./
+&lt;p&gt;加入2b-midag7&lt;/p&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry><entry><title>41123230-W1建立個人倉儲</title><link href="./41123230-W1-blog.html" rel="alternate"></link><published>2024-02-22T02:00:00+08:00</published><updated>2024-05-30T04:53:25+08:00</updated><author><name>41123230</name></author><id>tag:None,2024-02-22:./41123230-W1-blog.html</id><summary type="html">&lt;p&gt;./
 建立個人倉儲&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;./
 建立個人倉儲&lt;/p&gt;
