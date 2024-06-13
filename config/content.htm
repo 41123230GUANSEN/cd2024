@@ -3,7 +3,8 @@
 <p>網誌: <a href="https://41123230guansen.github.io/cd2024/blog">https://41123230guansen.github.io/cd2024/blog</a></p>
 <p>簡報: <a href="https://41123230guansen.github.io/cd2024/reveal">https://41123230guansen.github.io/cd2024/reveal</a></p>
 <p>倉儲:<span style="color: #0000ff;"> <a href="https://github.com/41123230GUANSEN/cd2024" style="color: #0000ff;">https://github.com/41123230GUANSEN/cd2024</a></span></p>
-<p></p><h1>cmsimde</h1>
+<p></p>
+<h1>cmsimde</h1>
 <p><span style="background-color: #ccffcc;">SMap</span> - SiteMap - 依照階次列出網站的所有頁面.</p>
 <p><span style="background-color: #ccffcc;">EditA</span> - Edit All page - 將所有頁面放入編輯模式中, 主要用來處理頁面搬遷, 刪除或決定衝突頁面內容版本.</p>
 <p><span style="background-color: #ccffcc;">Edit</span> - Edit page - 先選擇要編輯的單一頁面後, 再點選 Edit, 即可進入單一頁面的編輯模式.</p>
@@ -332,7 +333,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <h1>期中報告影片</h1>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/LO3szFD458A" width="560"></iframe></p>
 <p>自評分數:70</p>
-<h1>W9</h1>
+<h1>w9</h1>
 <h6>鋼球平衡台 PID 控制與模擬</h6>
 <h6>對 Gemini 1.5 Pro 提問:</h6>
 <h6>以下為利用 PID 控制 CoppeliaSim<span> </span><a href="http://229.cycu.org/ball_beam_balancing_PID_control_coppeliasim_1d_and_2d.7z">鋼球平衡台場景</a>的 ZMQ RemoteAPI Python 程式, 請利用 Python 模組將系統控制過程, 鋼球在平衡台上的 x 方向座標與 y 方向, 利用 matplotlib 畫出來. "這裡附上原本的 PID 控制程式碼"</h6>
@@ -388,8 +389,7 @@ socket.close()
 context.term()</pre>
 <h6><br/><br/></h6>
 <h6>程式碼說明:</h6>
-<h6>程式碼首先導入必要的模組，包括 zmq 用于與 CoppeliaSim 通信，time 用于延遲，以及 matplotlib.pyplot 用于繪圖。建立 ZMQ context 和 socket，並連接到 CoppeliaSim 的 RemoteAPI 端口。<br/>初始化 PID 控制參數、變數和用於存儲鋼球座標的列表。<br/>控制循環中，首先獲取鋼球的 x 和 y 方向座標。<br/>計算 PID 控制輸出並發送控制指令到 CoppeliaSim。<br/>將座標添加到列表中，並使用 matplotlib 繪製 x 和 y 方向座標隨時間變化的圖形。<br/>程式最後關閉 socket 和 context。<br/>請注意:<br/>您需要將示例程式碼中的 PID 控制部分替換為您的實際程式碼。<br/>您需要根據您的場景調整 get_ball_position 函數以獲取鋼球的座標。<br/>您可以根據需要調整 matplotlib 繪圖參數以獲得更清晰的視覺化效果。<br/>希望這個示例程式碼能幫助您使用 matplotlib 視覺化 CoppeliaSim 鋼球平衡台 PID 控制過程。</h6>
-<h1>W10</h1>
+<h6>程式碼首先導入必要的模組，包括 zmq 用于與 CoppeliaSim 通信，time 用于延遲，以及 matplotlib.pyplot 用于繪圖。建立 ZMQ context 和 socket，並連接到 CoppeliaSim 的 RemoteAPI 端口。<br/>初始化 PID 控制參數、變數和用於存儲鋼球座標的列表。<br/>控制循環中，首先獲取鋼球的 x 和 y 方向座標。<br/>計算 PID 控制輸出並發送控制指令到 CoppeliaSim。<br/>將座標添加到列表中，並使用 matplotlib 繪製 x 和 y 方向座標隨時間變化的圖形。<br/>程式最後關閉 socket 和 context。<br/>請注意:<br/>您需要將示例程式碼中的 PID 控制部分替換為您的實際程式碼。<br/>您需要根據您的場景調整 get_ball_position 函數以獲取鋼球的座標。<br/>您可以根據需要調整 matplotlib 繪圖參數以獲得更清晰的視覺化效果。<br/>希望這個示例程式碼能幫助您使用 matplotlib 視覺化 CoppeliaSim 鋼球平衡台 PID 控制過程。</h6><h1>w10</h1>
 <p><span>W10 實習的任務一:</span></p>
 <p>已知:<span> </span><a href="https://mde.tw/cd2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/27ae4eb5669e4495b3e3a164d404628913a011ed/2b_w10_step1.py">2b 初步資料放入數列</a><span> </span>可以將<span> </span><a href="https://mdecd2024.github.io/2bstud-2bsite/downloads/2b.txt">2b.txt</a><span> </span>即時資料取出, 並且將每一行隔開後, 逐一放入數列.</p>
 <p>後續處理: 只要透過 for 重複迴圈, 就可以從上列資料中每位學員的基本資料 (學號、Github 帳號與組別) 中直接在網頁建立所需的 html.</p>
@@ -444,9 +444,13 @@ context.term()</pre>
 <p>這是 W10 實習的任務三:</p>
 <p>請根據<span> </span><a href="https://mde.tw/cd2024/downloads/Solvespace_model%20_2d_for_cd2024_w6.7z">Solvespace_model _2d_for_cd2024_w6.7z</a><span> </span>零組件尺寸, 利用<span> </span><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/yen_nfu_edu_tw/EehhlaMDzTxAlOBppbPSoPwBCzsOQxvshtNL8xJel-zbJQ?e=YwKvdH">Siemens NX1872.7z</a><span> </span>(需要登入 @nfu.edu.tw, cd2024 採用電腦安裝的 NX1872 或隨身碟中的 NX1872) 執行零組件繪圖, 完成後請將過程影片放入個人與分組網站中.</p>
 零件一:<span style="color: #0000ff;"><a href="https://drive.google.com/file/d/1B-oxuN3ZbtZQuQIB-LhFntdwH9lj7LCd/view?usp=drive_link" style="color: #0000ff;">圖檔</a></span>，<a href="https://drive.google.com/file/d/1Bafri3yKelcIdfirev-hHsnnBrQssR18/view?usp=drive_link">過程檔</a>  組立件:<a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41123230_nfu_edu_tw/EU9tEZzyj_BKtcmNEtoRTZMBQnu98C7_vp6vSwAZ7bkJNA?e=r3mlhL">圖檔</a></li>
+<li></li>
 </ul>
 </li>
-</ul>
+</ul><h1>w17</h1>
+<p><span>期末實習評量項目一:零件繪製過程(影片開始到12:00)<iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/m_iJUyRf2T8" width="560"></iframe></span></p>
+<p><a href="https://nfuedu-my.sharepoint.com/:f:/g/personal/41123230_nfu_edu_tw/EutWB_VzlFdNqouczAvMpogB1R6rHZo5SJdzpB3o4zE3OQ?e=ldkZdK">車子零件檔及py檔載點</a></p>
+<p>期末實習評量項目二:零組件組立過程(影片由12:00到結束)<iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/m_iJUyRf2T8" width="560"></iframe></p>
 <p></p>
 <hr/>
 <p>
