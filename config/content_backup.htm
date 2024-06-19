@@ -333,7 +333,7 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <h1>期中報告影片</h1>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/LO3szFD458A" width="560"></iframe></p>
 <p>自評分數:70</p>
-<h1>W9</h1>
+<h1>w9</h1>
 <h6>鋼球平衡台 PID 控制與模擬</h6>
 <h6>對 Gemini 1.5 Pro 提問:</h6>
 <h6>以下為利用 PID 控制 CoppeliaSim<span> </span><a href="http://229.cycu.org/ball_beam_balancing_PID_control_coppeliasim_1d_and_2d.7z">鋼球平衡台場景</a>的 ZMQ RemoteAPI Python 程式, 請利用 Python 模組將系統控制過程, 鋼球在平衡台上的 x 方向座標與 y 方向, 利用 matplotlib 畫出來. "這裡附上原本的 PID 控制程式碼"</h6>
@@ -389,8 +389,7 @@ socket.close()
 context.term()</pre>
 <h6><br/><br/></h6>
 <h6>程式碼說明:</h6>
-<h6>程式碼首先導入必要的模組，包括 zmq 用于與 CoppeliaSim 通信，time 用于延遲，以及 matplotlib.pyplot 用于繪圖。建立 ZMQ context 和 socket，並連接到 CoppeliaSim 的 RemoteAPI 端口。<br/>初始化 PID 控制參數、變數和用於存儲鋼球座標的列表。<br/>控制循環中，首先獲取鋼球的 x 和 y 方向座標。<br/>計算 PID 控制輸出並發送控制指令到 CoppeliaSim。<br/>將座標添加到列表中，並使用 matplotlib 繪製 x 和 y 方向座標隨時間變化的圖形。<br/>程式最後關閉 socket 和 context。<br/>請注意:<br/>您需要將示例程式碼中的 PID 控制部分替換為您的實際程式碼。<br/>您需要根據您的場景調整 get_ball_position 函數以獲取鋼球的座標。<br/>您可以根據需要調整 matplotlib 繪圖參數以獲得更清晰的視覺化效果。<br/>希望這個示例程式碼能幫助您使用 matplotlib 視覺化 CoppeliaSim 鋼球平衡台 PID 控制過程。</h6>
-<h1>w10</h1>
+<h6>程式碼首先導入必要的模組，包括 zmq 用于與 CoppeliaSim 通信，time 用于延遲，以及 matplotlib.pyplot 用于繪圖。建立 ZMQ context 和 socket，並連接到 CoppeliaSim 的 RemoteAPI 端口。<br/>初始化 PID 控制參數、變數和用於存儲鋼球座標的列表。<br/>控制循環中，首先獲取鋼球的 x 和 y 方向座標。<br/>計算 PID 控制輸出並發送控制指令到 CoppeliaSim。<br/>將座標添加到列表中，並使用 matplotlib 繪製 x 和 y 方向座標隨時間變化的圖形。<br/>程式最後關閉 socket 和 context。<br/>請注意:<br/>您需要將示例程式碼中的 PID 控制部分替換為您的實際程式碼。<br/>您需要根據您的場景調整 get_ball_position 函數以獲取鋼球的座標。<br/>您可以根據需要調整 matplotlib 繪圖參數以獲得更清晰的視覺化效果。<br/>希望這個示例程式碼能幫助您使用 matplotlib 視覺化 CoppeliaSim 鋼球平衡台 PID 控制過程。</h6><h1>w10</h1>
 <p><span>W10 實習的任務一:</span></p>
 <p>已知:<span> </span><a href="https://mde.tw/cd2024/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/8ba6fa28317bc7a784d8350e7bc33580/raw/27ae4eb5669e4495b3e3a164d404628913a011ed/2b_w10_step1.py">2b 初步資料放入數列</a><span> </span>可以將<span> </span><a href="https://mdecd2024.github.io/2bstud-2bsite/downloads/2b.txt">2b.txt</a><span> </span>即時資料取出, 並且將每一行隔開後, 逐一放入數列.</p>
 <p>後續處理: 只要透過 for 重複迴圈, 就可以從上列資料中每位學員的基本資料 (學號、Github 帳號與組別) 中直接在網頁建立所需的 html.</p>
