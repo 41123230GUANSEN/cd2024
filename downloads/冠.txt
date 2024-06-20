@@ -1,0 +1,186 @@
+\documentclass[11pt]{article}
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK TC}
+\usepackage[top=2cm,bottom=2cm,left=3cm,right=3cm]{geometry}
+\usepackage{setspace}
+\doublespacing
+\setlength{\parskip}{3pt}
+\usepackage{moresize}
+\usepackage{graphicx}
+\usepackage[notocbib]{apacite}
+
+\begin{document}
+\begin{center}
+\LARGE \textbf{1. CHAPTER}\\
+\LARGE \textbf{章節}\\
+\LARGE \textbf{INTRODTION}\\
+\LARGE \textbf{引言}\\
+
+\end{center}
+
+ \textbf{\large 1.1. Objective  目標}
+ 
+
+The thesis has the objective of finding out how far PLM+MES system can be implemented by using the readily available Odoo software by analyzing the different concepts and dynamics that would consist said integration and they apply a fictional scenario to determine if and which of those concepts are included within this packaged solution.
+
+該論文的目標是通過使用現成的Odoo軟體，通過分析構成所述集成的不同概念和動態，找出PLM + MES系統可以在多大程度上實現，並應用一個虛構的場景來確定這些概念是否以及哪些概念包含在該打包解決方案中。
+
+To contextualize, the Odoo software differs from other solutions in the market substantially both in implementation and business model. To summarize, the Odoo software was originated as an open-source ERP software as oppose to a PLM or MES software and as such its availability and modularity are reasonably expanded. It goes without saying that the counter point for this that its usability in the field of PLM or MES is uncertain hence the value of this work.
+
+從情境來看，Odoo軟體在實施和商業模式上都與市場上的其他解決方案有很大不同。總而言之，Odoo軟體起源於開源ERP軟體，與PLM或MES軟體相反，因此其可用性和模組化得到了合理的擴展。毋庸置疑，與此相反的是，它在PLM或MES領域的可用性是不確定的，因此這項工作的價值。
+
+Specifically, from the perspective of small manufacturing business and startups, the idea of an all-around ERP that implements a PLM-MES system is extremely valuable. Although ERP systems are somewhat available, they rarely venture deep enough into manufacturing to expand into PLM or MES solutions. In addition, the other direction is also relevant since PLM solutions tend to not have the expandability of an ERP which usually means that any integration requires specialized ad-hoc work.
+
+具體而言，從小型製造企業和初創企業的角度來看，實施PLM-MES系統的全方位ERP的想法非常有價值。儘管ERP系統在一定程度上可用，但它們很少深入製造業以擴展到PLM或MES解決方案。此外，另一個方向也很重要，因為PLM解決方案往往不具備ERP的可擴展性，這通常意味著任何集成都需要專門的臨時工作。
+
+Although modifying the software do not fall within the scope of this work, the fact that the software has an open-source community version means that adapting the software even to the most specific cases may prove to be easier and economical barriers for adopting lower, further emphasizing the possible utility of this software in the context of small business.
+
+儘管修改軟體不屬於這項工作的範圍，但該軟體具有開源社區版本這一事實意味著，即使針對最具體的情況調整軟體，也可能被證明是採用更低的更簡單、更經濟的障礙，進一步強調了該軟體在小型企業環境中的可能效用。
+
+Ultimately, the thesis will give theoretical and practical advices on how to further exploit this system. It will also lay the ground for future works on the Odoo software and checks on how the solution is performing by identifying specific key aspects of PLM-MES integration and implementation.
+
+最後，論文將就如何進一步利用該系統提供理論和實踐建議。它還將為Odoo軟體的未來工作奠定基礎，並通過確定PLM-MES集成和實施的具體關鍵方面來檢查解決方案的性能。
+
+\textbf{\large 1.2.	Structure 結構}
+
+This work could be a reference for an actual implementation of the described solution in small manufacturing enterprises and it can be treated as introductory material to PLM-MES and their implementation, as well as first principles and review of the current state of the Odoo software regarding it.  To such end, this thesis presents the following structure:
+
+這項工作可以作為在小型製造企業中實際實施所述解決方案的參考，並且可以將其視為PLM-MES及其實施的介紹材料，以及Odoo軟體的第一原理和當前狀態的回顧。 為此，本論文提出了以下結構：
+
+	Chapter 1 - Introduction to this work and its objectives. Furthermore, it provide a succinct explanation of why this software solution requires this sort of analysis in the first place and how it was be structured.
+
+第 1 章 - 介紹這項工作及其目標。此外，它還簡明扼要地解釋了為什麼該軟體  解  決方案首先需要這種分析以及它是如何構建的。
+
+	Chapter 2 – This chapter introduce the basic theoretical background to PLM, MES, ERP and Industry 4.0. These are presented in order to create the grounds to a meaningful contribution in this kind of analysis as well as providing meaningful context for its implementation in case the reader is a small business representative.
+
+第 2 章 – 本章介紹 PLM、MES、ERP 和工業 4.0 的基本理論背景。提出這些是為了在這種分析中做出有意義的貢獻，併為其實施提供有意義的背景，以防讀者是小企業代表。
+
+	Chapter 3 – This chapter is all about the integration between PLM and MES systems as discussed by previous works and as was be analyzed in this work. This is useful to stablish the concepts and dynamics that are the subject when analyzing the Odoo software.
+
+第 3 章 – 本章是關於 PLM 和 MES 系統之間的集成，正如之前的工作所討論的那樣，以及本文所分析的那樣。這對於確定分析Odoo軟體時的主題概念和動態很有用。
+
+	Chapter 4 – Introduction to the fictional company and products chosen in the molds of Industry 4.0 to be used in the further analysis and evaluation of the Odoo software.
+
+第 4 章 – 介紹在工業 4.0 模具中選擇的虛構公司和產品，用於進一步分析和評估 Odoo 軟體。
+
+	Chapter 5 – The introduction to the Odoo software as well as a more in-depth explanation of its use and functionalities. The description of the experimentation of the Odoo software taking in consideration all the previous chapters
+
+第 5 章 – Odoo 軟體的介紹以及對其使用和功能的更深入解釋。考慮到前面所有章節的Odoo軟體實驗描述。
+
+	Chapter 7 - Conclusions The last chapter describes the takeaways of the work: how a medium enterprise can improve its processes through an informed use of a PLM+MES system implemented using the Odoo software.
+
+Chapter 7 - 結論最後一章描述了本文的主要結論：一家中型企業如何通過明智地使用PLM+MES系統來改善其流程，並使用Odoo軟件實施該系統。
+
+\newpage
+\begin{center}
+\LARGE \textbf{2.	CHAPTER 章節}\\
+\LARGE \textbf{THEORETICAL BACKGROUND}\\
+\LARGE \textbf{理論背景}\\
+
+\end{center}
+
+This chapter is a brief introduction to the different systems that deal with data production collection and processing around the concept of enhancing all aspects of production that are favored by the academic community as well as the current and future state of industry for which these systems should prove to be indispensable.
+
+本章簡要介紹了處理數據生產收集和處理的不同系統，這些系統圍繞著加強學術界青睞的生產各個方面的概念，以及這些系統應被證明是不可或缺的當前和未來的工業狀態。
+
+It is important to notice from this part that these are not completely separate information systems. They start from different perspectives and they try to solve different problems but because of broad definitions they unavoidably expand into each other. That represents a problem on its own since from the available literature it becomes difficult to pinpoint where the boundary of a system ends and another one starts.
+
+從這一部分需要注意的是，這些並不是完全獨立的信息系統。他們從不同的角度出發，試圖解決不同的問題，但由於定義寬泛，他們不可避免地相互擴展。這本身就是一個問題，因為從現有的文獻中，很難確定一個系統的邊界在哪裡結束，另一個系統的邊界在哪裡開始。
+
+The Odoo management software (that is a topic of this work) considers PLM mainly as a tool for tracking change and improvements, while other key characteristics of PLM, like the use of digital items (later detailed at section 2.1), is a base characteristic of the material requirements planning which is a tool utility that also dabbles into MES.
+
+Odoo管理軟體（這是本文的主題）主要將PLM視為跟蹤變化和改進的工具，而PLM的其他關鍵特徵，如數字專案的使用（稍後在第2.1節中詳細介紹），是物料需求計劃的基本特徵，該工具是一種工具實用程式，也涉足MES。
+
+\textbf{\large 2.1.	Product lifecycle management 產品生命週期管理}
+    
+Any information produced by an individual or team is done by an empirical creative process. A task requires either previous knowledge/experience or it will be inevitably plagued by mistakes and corrections, which in turn generates said experience in exchange of time and resources. That experience is, traditionally, embedded in the human resource (employee) that produced the information in the first place.
+
+個人或團隊產生的任何資訊都是通過經驗創造過程完成的。一項任務要麼需要先前的知識/經驗，要麼不可避免地受到錯誤和更正的困擾，這反過來又會產生上述經驗以換取時間和資源。傳統上，這種經驗嵌入到最初產生資訊的人力資源（員工）中。
+
+Product Life-Cycle Management (PLM) is an organizational process that aims to control the flow of information regarding all aspects of a product throughout its life-cycle. As one can imagine, this definition, and its broad scope, does not make understanding PLM any easier. The thing to focus on, for all purposes, is that PLM true value is in what concerns change.
+
+產品生命週期管理 （PLM） 是一個組織流程，旨在控制產品整個生命週期中有關產品各個方面的資訊流。可以想像，這個定義及其廣泛的範圍並沒有使理解 PLM 變得更容易。無論出於何種目的，需要關注的是 PLM 的真正價值在於關注變化。\\
+
+\includegraphics{20.jpg}
+\begin{center}
+\textbf{Figure 1 Product lifecycle stages (Tripaldi, 2019)}\\  
+\textbf{圖 1 產品生命週期階段（Tripaldi，2019 年）} 
+\end{center}
+PLM is above all a connecting technology, not an individual technology islet or information processing system (Saaksvuori and Immonen, 2008). The idea is that every information produced by company personnel holds value equivalent to the time and money invested. Using that information saves money, not using that information wastes money. This is easier to understand when looking to a design process.
+
+PLM首先是一種連接技術，而不是單個技術或資訊處理系統（Saaksvuori和Immonen，2008）。這個想法是，公司人員產生的每條資訊都具有與投入的時間和金錢相等的價值。使用這些資訊可以省錢，不使用這些資訊會浪費金錢。在尋找設計過程時，這更容易理解。
+
+
+E.g. if an engineer designs an electronic circuit, the file holding the CAD drawing has an equivalent value to the time and money invested in it. The problem comes from the fact that in a traditional system only the engineer knows the design process behind the file, the extent of what is inside and its possible uses. While, from the perspective of the rest of the company, that is just a file in the database alongside thousands of others. The result is that, on its own, the information is of limited use.
+
+例如，如果工程師設計一個電子電路，則保存 CAD 圖紙的檔具有與其投入的時間和金錢相當的價值。問題在於，在傳統系統中，只有工程師知道檔背後的設計過程、內部內容的範圍及其可能的用途。而從公司其他部門的角度來看，這隻是資料庫中的一個文件，還有其他數千個檔。結果是，就其本身而言，資訊的用途有限。
+
+If by any chance there is another engineer working in a similar design it will become extremely difficult for him/her to find that file and use it in his own design. Ultimately this  results in waste because Engineer#2 will have to spend more time and money doing something that was already made just because that information was not easily available or well organized.
+
+如果有另一位工程師在類似的設計中工作，他/她將很難找到該檔並將其用於自己的設計。最終，這會導致浪費，因為工程師#2將不得不花費更多的時間和金錢來做一些已經完成的事情，只是因為這些資訊不容易獲得或組織得當。
+
+This scenario is not limited to product design, but also to all aspects of the product lifecycle that produces change over time. Someone had to orchestrate how that piece will be produced , how that piece will be moved,packed , distributed and disposed of. When a problem is found or improvements are possible those changes also produce information and consume resources. If the company cannot take advantage of that existing information about all those phases of the product conception it will waste resources at every single redesign.
+
+此方案不僅限於產品設計，還涉及產品生命週期中隨時間推移而產生變化的所有方面。必須有人精心策劃這件作品的製作方式，如何移動、包裝、分發和處置這件作品。當發現問題或可以改進時，這些更改也會生成資訊並消耗資源。如果公司不能利用有關產品概念所有這些階段的現有資訊，那麼它將在每次重新設計中浪費資源。 
+
+Product Lifecycle Management consists of an information system that allows information and knowledge sharing within and between organizations (Sudarsan et al., 2005) minimizing the waste by controlling and organizing those files with information that would otherwise be carried only by the human resource that produced said files. The way it accomplishes that is by virtualizing all components of the product life-cycle in the form of digital “items” in an object oriented architecture. As explained by (Saaksvuori and Immonen, 2008),an item is a systematic and standard way to identify, encode and name a product, a product element or module, a component, a material or a service.
+
+產品生命週期管理由一個資訊系統組成，該系統允許組織內部和組織之間共用資訊和知識（Sudarsan 等人，2005 年），通過控制和組織這些檔來最大限度地減少浪費，否則這些資訊只能由產生所述檔的人力資源攜帶。它實現這一點的方式是在面向對象的架構中以數位“專案”的形式虛擬化產品生命週期的所有元件。正如（Saaksvuori和Immonen，2008）所解釋的那樣，專案是識別，編碼和命名產品，產品元素或模組，元件，材料或服務的系統和標準方法。
+
+These item objects are, by all means, virtual representations that hold metadata regarding what it tries to represent and allows to connect and link the information. As described by (D’Antonio et al., 2015) product information should be connected to its production process. PLM allows to link defined processes to the product and to provide constraints on the order of process execution. E.g. a CAD drawing for a circuit schematic is attached to a virtual circuit object that holds basic information about what is contained in the file and all the previous iterations of that file over time as well as links to items representing which bill of materials (BOM) it belongs to, the machines necessary to manufacture it, the processes necessary to assemble it and more importantly how all those items changed over each improving iteration.
+
+無論如何，這些項目物件都是虛擬表示形式，它們保存有關它試圖表示的內容的元數據，並允許連接和鏈接資訊。如（D'Antonio等人，2015）所描述的那樣，產品資訊應與其生產過程相關聯。PLM 允許將定義的流程連結到產品，並對流程執行順序提供約束。例如，電路原理圖的 CAD 圖紙附加到一個虛擬電路物件上，該物件包含有關檔中包含的內容和該文件隨時間推移的所有先前反覆運算的基本資訊，以及指向表示它所屬的物料清單 （BOM） 的專案的連結，製造它所需的機器， 組裝它所需的過程，更重要的是，所有這些專案在每次改進反覆運算中是如何變化的。
+
+This all-around virtualization gives precious context to information otherwise lost on its own complexity. It allows for faster access, easier understanding of the whole and the consequences of what happens when there is change for each part. This is the best way of organizing the existing data for future reference because it allows for structure as well as transparency.
+
+這種全方位的虛擬化為資訊提供了寶貴的背景資訊，否則會因自身的複雜性而丟失。它允許更快地訪問，更容易理解整體以及當每個部分發生變化時會發生什麼的後果。這是組織現有數據以供將來參考的最佳方式，因為它允許結構和透明度。
+
+To sum up, PLM as a system aims to track functional change in all aspects regarding the product life, in a way that the company can benefit strategically from it by avoiding informational waste. It does so by virtualizing the real thing in the form of digital items that  store the files regarding what the item is supposed to represent. These can in turn be correlated and tracked over time using metadata.
+
+總而言之，產品生命週期管理（PLM）系統的目標是以一種方式追蹤與產品生命週期有關的所有方面的功能變化，使公司能夠從中戰略性地受益，避免信息浪費。它通過將真實物品虛擬化成數字化項目的形式來實現這一目標，這些項目存儲有關該物品應該代表的內容的文件。這些數字項目可以通過元數據隨時間相關並追蹤。
+
+\textbf{\large 2.2.	Enterprise Resource Planing  企業資源規劃}\\
+In the early days of information systems, one of the first systems to find wide implementation was the called MRP (Material Requirements Planning). Although not necessarily software based, this system wide implementation was a natural consequence of computing technology and it aimed to solve bottlenecks regarding the material supplying and product output by calculating the material needs for production. As it became more ubiquitous in the enterprise in the late 70’s and early 80’s the system evolved. This gave origin to MRP II (Manufacturing Resource Planning) and, more important to the scope of this paper, ERP (Enterprise Resource Planning).
+
+在資訊系統初期，其中一個最早被廣泛實施的系統是所謂的 MRP（物料需求計劃）。雖然這個系統不一定基於軟件，但這種系統的廣泛實施是計算技術的自然結果，它旨在通過計算生產所需的物料來解決物料供應和產品輸出方面的瓶頸問題。隨著它在企業中變得越來越普遍，這個系統在70年代後期和80年代初期進行了演進。這導致了 MRP II（製造資源計劃）的出現，更重要的是對本文範圍的 ERP（企業資源規劃）的出現。
+
+For the most part modern Enterprise Resource Planning expands the original MRP function to encompass many other aspects of enterprise operations all while adding modularity to the system.
+
+就大多數情況而言，現代企業資源規劃將原始的MRP功能擴展到包括企業運營的許多其他方面，同時對系統添加了模塊化。
+
+Modern ERP systems are often module based; different modules have different user interfaces and different user groups. For example, Manufacturing module, Procurement module, Logistics module, Financial module, Maintenance module, Sales module. (Saaksvuori and Immonen, 2008). These modules expand across many domains of knowledge but for the most part they do so always from the perspective of Production, Sales and Service. Figure 2 depicts the scope of the ERP system in comparison to other Information systems.
+
+現代ERP系統通常是基於模塊的；不同的模塊具有不同的用戶界面和不同的用戶群體。例如，製造模塊、採購模塊、物流模塊、財務模塊、維護模塊、銷售模塊等（Saaksvuori和Immonen，2008年）。這些模塊涵蓋了許多知識領域，但大多數情況下，它們都是從生產、銷售和服務的角度進行擴展。圖2顯示了ERP系統的範圍與其他信息系統的比較。\\
+
+\includegraphics{30.jpg}
+
+\begin{center}
+\textbf{Figure 3 Visual comparison of ERP and PLM concerning granularity)}\\ 
+\textbf{(Adapted from Stark, 2015)}\\
+\textbf{圖3 ERP和PLM在細節度方面的視覺比較（改編自Stark，2015年）)}\\
+\end{center}
+
+This sort broad reach across the domains makes sense because the ERP operations, as were in the case of MRP, focus on handling transactions and orders. The focus of the ERP is controlling the change in input, retention and output of resources to the company, be of products, raw materials or packing.
+
+就大多數情況而言，現代企業資源規劃將原始的MRP功能擴展到包括企業運營的許多其他方面，同時對系統添加了模塊化。
+
+From the same image, it is possible to see the theoretical contrast between PLM and ERP even though they are both extremely broad. While ERP expands across the domains of knowledge but limits itself to a few functions, PLM expands across all functions that involve the product. As portrayed by Figure 3, another point of view that represents a good difference between the two is the lack of overlap in what concerns the scale or level of detail in which ERP and PLM affects the industry (i.e. the granularity of the two systems).
+
+從同一個圖像中，可以看到產品生命周期管理（PLM）和企業資源規劃（ERP）之間的理論對比，即使它們都非常廣泛。雖然ERP擴展到知識領域，但它僅限於一些功能；而PLM擴展到涉及產品的所有功能。正如圖3所描繪的那樣，另一個代表這兩者之間良好區別的觀點是ERP和PLM在影響行業方面的規模或細節程度之間缺乏重疊（即這兩個系統的細粒度）。\\
+
+\begin{center}
+\includegraphics{31.jpg}\\
+\textbf{Figure 3 Visual comparison of ERP and PLM concerning granularity}\\ 
+\textbf{(Adapted from Stark, 2015)}\\
+\textbf{圖3 ERP和PLM在細節度方面的視覺比較（改編自Stark，2015年）}\\
+\end{center}
+As we can see, ERP is primarily concerned with the transaction and the order. Once an order is closed out, the ERP system processes the transactions with respect to that order but is not very much concerned with the order beyond that. On the other hand, PLM’s granularity is concerned with the order for the product and extends not only into the program, but into the family and the entire industry (Stark, 2015).
+
+正如我們所看到的，ERP主要關注的是交易和訂單。一旦訂單完成，ERP系統將根據該訂單處理交易，但對於訂單以後的情況並不太關心。另一方面，PLM的細節度則涉及產品的訂單，不僅擴展到了程序，還擴展到了家族和整個行業（Stark，2015年）。
+
+This is particularly interesting because it demonstrates how the two systems can and do complement each other in the field. One of the aspects of ERP that should point out is that it is comparatively easier to integrate with other systems. ERP-MES integration for instance has been widely studied and implemented to the point where standards have been developed for it (ISA 95 - IEC 62264). One argument for this is the modular nature of the ERP system which is discussed further in the paper in (Chapter 5) with the analysis of the Odoo software. That is because the Odoo software evolved originally from an open-source ERP system.
+
+這特別有趣，因為它展示了這兩個系統如何能夠相互補充。 ERP的一個方面值得指出的是，它與其他系統相比較容易集成。例如，ERP-MES集成已被廣泛研究和實施，甚至發展出了相應的標準（ISA 95 - IEC 62264）。其中一個論點是ERP系統的模塊化性質，這在論文中（第5章）進一步討論，分析了Odoo軟件。這是因為Odoo軟件最初是從一個開源的ERP系統發展而來的。
+
+
+\end{document}
